@@ -29,25 +29,8 @@ typedef vector<vii> grafo_dj;
 #define all(a) a.begin(), a.end()
 #define EdgeList vector<pair<int,ii>>
 
-string S;
-int maior_string = 0;
-
 int main() {
         NeedForSpeed
-
-	cin >> S;
-	int atual = 0;
-	for (int i = 0; i < sz(S); i++) {
-		if (S[i] == 'A' || S[i] == 'C' || S[i] == 'G' || S[i] == 'T') {
-			atual++;
-			maior_string = max(maior_string, atual);
-		} else {
-			atual = 0;
-		}	
-	}
-
-	cout << maior_string << nl;
-
 
         return 0;
 }
