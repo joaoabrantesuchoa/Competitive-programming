@@ -9,9 +9,9 @@ typedef pair<int,int> pii;
 typedef pair<int,pii> iii;
 typedef vector<pii> vii;
 typedef vector<vi> vvi;
-typedef priority_queue<pii, vector<pii>, greater<pii>> fila_prioridade;
-typedef priority_queue<iii, vector<iii>, greater<iii>> fila_prioridade_grids;
-typedef vector<vii> grafo_dj;
+typedef priority_queue<pii, vector<pii>, greater<pii>> priority_queue;
+typedef priority_queue<iii, vector<iii>, greater<iii>> priority_queue_grids;
+typedef vector<vii> graph_dj;
 
 
 #define preencher_negativo(memo) memset(memo, -1, sizeof memo) 
