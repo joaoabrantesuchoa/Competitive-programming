@@ -9,7 +9,7 @@ typedef pair<int,int> pii;
 typedef pair<int,pii> iii;
 typedef vector<pii> vii;
 typedef vector<vi> vvi;
-typedef priority_queue<pii, vector<pii>, greater<pii>> priority_queue;
+typedef priority_queue<pii, vector<pii>, greater<pii>> priority_queue_easy;
 typedef priority_queue<iii, vector<iii>, greater<iii>> priority_queue_grids;
 typedef vector<vii> graph_dj;
 
