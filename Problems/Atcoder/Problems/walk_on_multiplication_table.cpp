@@ -29,8 +29,23 @@ typedef vector<vii> graph_dj;
 #define all(a) a.begin(), a.end()
 #define EdgeList vector<pair<int,ii>>
 
+
+ll n;
+
 int main() {
         NeedForSpeed
+
+	cin >> n;
+
+	ll qtd_min = 1000000000000;
+
+	for (ll i = 1; i <= sqrt(n); i++) {
+		if (i * (n / i) == n) {
+			qtd_min = min(qtd_min, i + (n / i) - 2);
+		}
+	}
+
+	cout << qtd_min << nl;
 
         return 0;
 }

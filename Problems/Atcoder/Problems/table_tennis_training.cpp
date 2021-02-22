@@ -29,8 +29,19 @@ typedef vector<vii> graph_dj;
 #define all(a) a.begin(), a.end()
 #define EdgeList vector<pair<int,ii>>
 
+ll n,a,b;
+
 int main() {
         NeedForSpeed
+
+	cin >> n >> a >> b;
+
+	if (a % 2 == b % 2) {
+		cout << (b - a) / 2 << nl;
+	} else {
+
+		cout << min(a - 1, n - b) + 1 + (b - a - 1) / 2 << nl;
+	}
 
         return 0;
 }
