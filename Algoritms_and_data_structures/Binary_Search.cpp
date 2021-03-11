@@ -2,7 +2,6 @@
 
 using namespace std;
 
-
 //This algorithm is using to find the position of an element in a order list in O(log N)
 //Works this way:
 //You have two bourders the low and the high. the low is on the begin of the list and the high on the end.
@@ -16,12 +15,9 @@ int n, element;
 int binary_search(int objetive) {
 	int low = 0;
 	int high = arr.size();
-
 	while(low < high) {
 		int middle = (low + high) / 2;
-
 		int guess = arr[middle];
-
 		if (guess == objetive) {
 			return middle;
 		} else if (guess < objetive) {
@@ -30,21 +26,16 @@ int binary_search(int objetive) {
 			high = middle - 1;
 		}
 	}
-
 	return -1;
 }
 
 int main() {
 	cin >> n;
-
 	for (int i = 0; i < n; i++) {
 		cin >> element;
 		arr.push_back(element);	
 	}
-	
 	cin >> element;
-
 	cout << binary_search(element) << "\n";
-
 	return 0;
 }
