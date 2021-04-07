@@ -15,17 +15,12 @@ void eratosthenes(int n) {
 		}
 	}
 }
-
 int main() {
 	cin >> n;
-
-
 	eratosthenes(n);
-
 	for (int i = 2; i <= 20; i++) {
 		cout << sieve[i] << " ";
 	}
 	cout << "\n";
-
 	return 0;
 }
