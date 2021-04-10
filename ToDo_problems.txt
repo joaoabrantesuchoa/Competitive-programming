@@ -1,2 +1,7 @@
 Consecutive Deletions https://www.codechef.com/COOK127C/problems/CONDEL
 Guess the Number   https://www.codechef.com/COOK127C/problems/GUESSIT
+
+https://atcoder.jp/contests/abc157/tasks/abc157_f
+https://codeforces.com/contest/1467/problem/D
+https://codeforces.com/contest/1399/problem/E2
+https://codeforces.com/contest/1399/problem/E1
