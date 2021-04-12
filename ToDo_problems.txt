@@ -2,6 +2,8 @@ Consecutive Deletions https://www.codechef.com/COOK127C/problems/CONDEL
 Guess the Number   https://www.codechef.com/COOK127C/problems/GUESSIT
 A-B Palindrome https://codeforces.com/contest/1512/problem/C
 Corrupted array https://codeforces.com/contest/1512/problem/D
+GCD Length https://codeforces.com/contest/1511/problem/B
+Yet Another Card Deck https://codeforces.com/contest/1511/problem/C
 
 https://atcoder.jp/contests/abc157/tasks/abc157_f
 https://codeforces.com/contest/1467/problem/D
