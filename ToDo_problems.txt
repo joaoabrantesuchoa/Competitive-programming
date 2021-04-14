@@ -1,5 +1,4 @@
 UPSOLVING PROBLEMS:
-  A-B Palindrome https://codeforces.com/contest/1512/problem/C
   Corrupted array https://codeforces.com/contest/1512/problem/D
   Yet Another Card Deck https://codeforces.com/contest/1511/problem/C
   Min Cost String https://codeforces.com/contest/1511/problem/D
