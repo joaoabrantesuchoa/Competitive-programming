@@ -1,8 +1,6 @@
 UPSOLVING PROBLEMS:
   Corrupted array https://codeforces.com/contest/1512/problem/D
   Min Cost String https://codeforces.com/contest/1511/problem/D
-  Consecutive Deletions https://www.codechef.com/COOK127C/problems/CONDEL
-  Guess the Number https://www.codechef.com/COOK127C/problems/GUESSIT
 
 OTHER PROBLEMS:
   Yakiniku Optimization Problem https://atcoder.jp/contests/abc157/tasks/abc157_f
