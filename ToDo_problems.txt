@@ -1,6 +1,7 @@
 UPSOLVING PROBLEMS:
   Corrupted array https://codeforces.com/contest/1512/problem/D
   Min Cost String https://codeforces.com/contest/1511/problem/D
+  The Sports Festival https://codeforces.com/contest/1509/problem/C
 
 OTHER PROBLEMS:
   Yakiniku Optimization Problem https://atcoder.jp/contests/abc157/tasks/abc157_f
