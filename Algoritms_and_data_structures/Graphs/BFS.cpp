@@ -11,7 +11,9 @@ typedef vector<vii> vvi;
 
 int edges;
 int x,y,w;
+int source;
 vi dist(100, INF);
+vi parent(100, 0);
 vector<vi> adj_list(1000);
 queue<int> Queue;
 
@@ -26,14 +28,22 @@ void BFS(int node) {
             int node_neighbor = adj_list[actual][i];
             if (dist[node_neighbor] == INF) {
                 dist[node_neighbor] = dist[actual] + 1;
+                parent[node_neighbor] = actual;
                 Queue.push(node_neighbor);
             }
 
         }
 
     }
+}
 
-
+void printPath(int u) {
+    if (u == source) { 
+        cout << source;
+        return;
+    }
+    printPath(parent[u]);
+    cout << " " << u; 
 }
 
 
@@ -44,10 +54,8 @@ int main() {
         cin >> x >> y;
         adj_list[x].push_back(y);
     }
-
-    BFS(1);
-
-    cout << dist[4] << "\n";
-
+    cin >> source;
+    BFS(source);
+    printPath(6);
     return 0;
 }
